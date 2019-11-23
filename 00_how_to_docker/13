@@ -1,0 +1,4 @@
+docker inspect -f '{{.Config.Env}}' spawning-pool
+
+# docker inspect -f '{{.Mounts}}' spawning-pool
+# show databases;
